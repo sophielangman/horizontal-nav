@@ -3,6 +3,7 @@ html {
   background-color: #dbd6cf;
   font-family: 'Bevan', sans-serif;
   line-height: 1.5;
+  color: #fff;
 }
 
 *, *::before, *::after {
@@ -14,7 +15,7 @@ strong {
 }
 .planets {
   border: 3px solid #595652;
-  padding: .75em;
+  padding: .5em;
   list-style-type: none;
   background-color: #79756f;
   text-align: center;
@@ -30,7 +31,9 @@ strong {
   border-radius: 10px;
 }
 
-.planets p {
+.planets a {
+  color: #fff;
+  text-decoration: none;
 
 }
 .planets li:hover {
