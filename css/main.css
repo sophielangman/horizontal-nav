@@ -24,7 +24,7 @@ h1 {
   font-family: Bevan, serif;
   color: #fff;
   text-align: center;
-  padding: 0;
+  padding: .5em .3em;
   margin: 0;
 }
 
@@ -40,22 +40,21 @@ nav {
 }
 
 .planets li {
-  font-weight: normal;
-  font-family: sans-serif;
-  color: #fff;
   display: inline-block;
-  text-decoration: none;
-  padding: .5em .75em;
-  background-color: #713837;
-  border-radius: .3em;
-  margin: .3em;
+  padding-bottom: 1em;
 }
 
 .planets a {
   color: #fff;
   text-decoration: none;
+  background-color: #713837;
+  padding: .5em .75em;
+  border-radius: .3em;
+  font-weight: normal;
+  font-family: sans-serif;
 }
 
-.planets li:hover {
+.planets a:hover {
   background-color: #f33;
+  color: #fff;
 }
