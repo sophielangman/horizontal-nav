@@ -9,10 +9,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-strong {
-  color: #fff;
-  background-color: #79756f;
-}
+
 .planets {
   border: 3px solid #595652;
   padding: .5em;
